@@ -21,6 +21,8 @@
     <p>
         <input onclick="add()" type="button" value="+">
         <input onclick="substr()" type="button" value="-">
+        <input onclick="multiply()" type="button" value="-">
+        <input onclick="divide()" type="button" value="-">
     </p>
 </body>
 <script>
@@ -29,6 +31,27 @@
         var num2 = document.getElementById("s_number").value;
         var result = parseInt(num1)+parseInt(num2);
        document.getElementById("answer").innerHTML=result;
+    }
+
+    function add(){
+        var num1 = document.getElementById("f_number").value;
+        var num2 = document.getElementById("s_number").value;
+    var result = parseInt(num1)-parseInt(num2);
+    document.getElementById("answer").innerHTML=results;
+    }
+
+    function add(){
+        var num1 = document.getElementById("f_number").value;
+        var num2 = document.getElementById("s_number").value;
+    var result = parseInt(num1)*parseInt(num2);
+    document.getElementById("answer").innerHTML=results;
+    }
+
+    function add(){
+        var num1 = document.getElementById("f_number").value;
+        var num2 = document.getElementById("s_number").value;
+    var result = parseInt(num1)/parseInt(num2);
+    document.getElementById("answer").innerHTML=results;
     }
 </script>
 </html>
