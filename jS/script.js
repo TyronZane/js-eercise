@@ -27,4 +27,10 @@ function calculate(){
     alert(answer)
     }
 
+function convert(){
+ var number = prompt('please enter your number')
+   answer= number*12
+ alert("Your inches is "+ answer+ " inches")
+
+
     
